@@ -1,0 +1,23 @@
+﻿@model HitApp.Models.FilePath
+
+@{
+    ViewData["Title"] = "Details";
+}
+<link href="~/css/Images.css" rel="stylesheet" />
+<body class="image-pages">
+    <div class="cards">
+        <h2>Image for @Model.Project.ProjectName Project</h2>
+
+        <div style="margin-bottom:20px" class="back">
+            <a asp-action="Index/@Model.ProjectId">
+                <input type="button" value="Back to All Images" class="btn btn-default" />
+            </a>
+        </div>
+        <div>
+            <img style="max-height:100vh; min-height:80vh"  src="/UserImages/@Model.FileName" />
+        </div>
+    </div>
+</body>
+
+
+

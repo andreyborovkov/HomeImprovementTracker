@@ -1,0 +1,69 @@
+﻿body {
+    background-image: url('/images/expense.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.cards {
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: black 5px 6px 13px 2px;
+    width: 1020px;
+    margin: 50px auto;
+}
+
+.back input, #create-exp input {
+    box-shadow: 1px 1px 1px #000;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+#create-exp {
+    width: unset;
+}
+
+.cards {
+    padding: 20px 10px;
+    width: 1020px;
+    margin: 40px auto;
+}
+
+#add-info {
+    height: 100px;
+}
+
+.buttons-del {
+    display: flex;
+    justify-content: center;
+    margin-right: 40px;
+    padding: 20px;
+}
+
+    .buttons-del a {
+        padding: 10px;
+    }
+
+    .buttons-del input {
+        box-shadow: 1px 1px 1px #000;
+    }
+
+#delete:hover {
+    background-color: rgba(255, 0, 0, 0.5);
+}
+
+#del-form {
+    padding: 10px;
+}
+
+#go-to {
+    margin-top: 20px;
+    margin-left: 70px;
+}
+.back input{
+    display:flex;
+    flex-direction:column;
+   text-align:left;
+    margin-top:20px;
+}

@@ -1,0 +1,27 @@
+﻿.images{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: auto;
+    grid-row-gap: 3rem;
+    margin-top: 1rem;
+}
+img{
+    max-height:150px;
+}
+
+.image-pages {
+    background: url(../images/background3.jpg) no-repeat fixed center;
+    background-size:cover;
+}
+
+.cards {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: black 5px 6px 13px 2px;
+    padding: 2rem 4rem 4rem 4rem;
+    margin-top: 3rem;
+}
+
+input.btn.btn-default {
+    box-shadow: 1px 1px 1px #000;
+}

@@ -1,0 +1,33 @@
+﻿@model HitApp.Models.Contractor
+
+@{
+    ViewData["Title"] = "Delete";
+}
+@section Styling{
+    <link href="~/css/Contractors.css" rel="stylesheet" />
+}
+
+<div class="back-btn">
+    <a asp-controller="Contractors" asp-action="Index">
+        <input type="button" value="ALL CONTRACTORS" style="font-weight:bold" class="btn btn-default" />
+    </a>
+</div>
+
+
+<div class="cards">
+    <h2>Are you sure you want to delete @Model.ContractorName?</h2>
+
+    <div class="buttons-del" >
+       
+            <form id="del-form" asp-controller="Contractors" asp-action="/Delete" asp-route-id="@Model.ContractorId">
+
+                <input id="delete" type="submit" value="DELETE" style="font-weight:bold" class="btn btn-default" />
+            </form>
+            <a  asp-controller="Contractors" asp-action="Details" asp-route-id="@Model.ContractorId">
+                <input type="button" value="NO" style="font-weight:bold" class="btn btn-default" />
+            </a>      
+
+    </div>
+</div>
+
+

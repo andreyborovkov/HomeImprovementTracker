@@ -1,0 +1,567 @@
+﻿/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification\ 
+for details on configuring this project to bundle and minify static web assets. */
+/*body {
+    padding-top: 50px;
+    padding-bottom: 0px;
+    background-color: rgba(193, 193, 193, 0.2784313725490196);
+
+}*/
+
+.Index {
+    padding-top: 50px;
+    padding-bottom: 20px;
+    background-color: rgba(193, 193, 193, 0.2784313725490196);
+    background: url('../images/background.jpg') no-repeat center center fixed;
+    background-size: cover;
+    /*filter: saturate(50%);
+     Browser Specific
+    -webkit-filter: saturate(50%);
+    -moz-filter: saturate(50%);
+    -ms-filter: saturate(50%);*/
+    /*-webkit-filter: blur(5px);*/
+}
+
+
+
+.body-content {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.foot {
+    color: white;
+}
+
+.navbar-inverse {
+    background: linear-gradient( rgba(255, 0, 0, 0.5), rgba(255, 0, 0, 0.5) ), url(../images/nav-wood.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#Index > nav {
+    padding: 0px 58px;
+}
+
+.navbar-inverse .navbar-nav > li > a, .navbar-inverse .navbar-brand {
+    color: white;
+}
+/*.container.body-content {
+    background: url('../images/Drawing.jpg')no-repeat center;
+    padding-left:0px;
+    padding-right:0px;
+    width:auto;
+    height:605px;
+    overflow:hidden;
+    background-size:cover;
+    background-position:top;
+}*/
+/*Home Page*/
+#Index .container {
+    padding-bottom: 10px;
+    margin-left: 0px;
+    margin-right: 0px;
+    width: 100%;
+    height: 100%;
+}
+
+.col-md-3 img {
+    width: 100%;
+    height: 25%;
+}
+/*editing link text and background color*/
+.col-md-3 {
+    color: white;
+    padding: 10px;
+    margin: 30px;
+    height: 427.38px;
+}
+
+#project-id {
+    display: none;
+}
+
+#expense-links {
+    list-style: none;
+}
+
+table {
+    white-space: nowrap;
+}
+
+.truncate {
+    max-width: 150px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+/* Wrapping element
+ Set some basic padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+
+.Welcome, .Plan, .Help, .Supplys, .Contractors {
+    display: inline-flex;
+    margin: 20px;
+    height: 300px;
+}
+
+    .Welcome p, .Supplys p, .Contractors p {
+        font-size: 1em;
+        text-shadow: 1px 1px 1px #000;
+        color: white;
+        display: inline-block;
+        background: rgba(0,0,0, 0.5);
+        color: white;
+        height: 300px;
+    }
+
+
+    .Plan p, .Help p {
+        order: 1;
+        font-size: 1em;
+        text-shadow: 1px 1px 1px #000;
+        display: inline-block;
+        background: rgba(0,0,0, 0.5);
+        color: white;
+        height: 300px;
+    }
+
+    .Plan img, .Help img {
+        order: 2;
+        height: 300px;
+        padding: 0px;
+        vertical-align: middle;
+    }
+
+#Index {
+    background: url(../images/wood.jpg);
+}
+
+
+    #Index .body-content {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+/* Carousel */
+.carousel-caption p {
+    font-size: 25px;
+    line-height: 1.4;
+    color: white;
+    /*background: rgba(0,0,0, 0.1);*/
+    border-radius: 5px;
+    padding: 8px;
+}
+
+.carousel-caption {
+    text-shadow: none;
+}
+
+#myCarousel {
+    border-color: darkred;
+}
+
+/*.container.body-content {
+    background: url('../images/Drawing.jpg')no-repeat center;
+    padding-left:0px;
+    padding-right:0px;
+    width:auto;
+    height:605px;
+    overflow:hidden;
+    background-size:cover;
+    background-position:top;
+}*/
+
+
+.carousel .item {
+    width: 100%; /*slider width*/
+    max-height: 600px; /*slider height*/
+}
+
+    .carousel .item img {
+        width: 100%; /*img width*/
+        filter: brightness(0.6);
+    }
+/*full width container*/
+@media (max-width: 767px) {
+    .block {
+        margin-left: -20px;
+        margin-right: -20px;
+    }
+}
+/* Make .svg files in the carousel display properly in older browsers */
+.carousel-inner .item img[src$=".svg"] {
+    width: 100%;
+    height: 100%;
+}
+/*About Page*/
+#About {
+    background: url(../images/wood.jpg) no-repeat fixed center;
+    margin-bottom: 30px;
+    background-size: cover;
+}
+
+.Welcome, .Plan, .Help, .Supplys, .Contractors {
+    display: inline-flex;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    margin: 50px;
+    height: 300px;
+    font-size: 18px;
+}
+
+    .Welcome p, .Supplys p, .Contractors p {
+        color: white;
+        display: inline-block;
+        background: rgba(0,0,0, 0.5);
+        color: white;
+        height: 300px;
+    }
+
+#About h2 {
+    padding-left: 20px;
+}
+
+#About p {
+    padding: 20px;
+    font-size: large;
+}
+
+
+.Plan p, .Help p {
+    order: 1;
+    display: inline-block;
+    background: rgba(0,0,0, 0.5);
+    color: white;
+    height: 300px;
+}
+
+.Plan img, .Help img {
+    order: 2;
+    height: 300px;
+    padding: 0px;
+    vertical-align: middle;
+}
+/*Resource Page*/
+.Resource {
+    background: url('../images/background.jpg') no-repeat fixed bottom;
+}
+
+
+
+
+.col-md-3 img {
+    width: 100%;
+    height: 25%;
+}
+/*editing link text and background color*/
+.col-md-3 {
+    color: white;
+    background: rgba(0,0,0, 0.5);
+    padding: 10px;
+    margin: 30px;
+    height: 427.38px;
+}
+
+/*ProjectList Page*/
+
+#tableId th {
+    color: black;
+    text-shadow: none;
+}
+
+
+
+.container body-content {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: black 5px 6px 13px 2px;
+}
+
+#project-id {
+    display: none;
+}
+
+/* QR code generator */
+#qrCode {
+    margin: 15px;
+}
+
+/* Hide/rearrange for smaller screens */
+@media screen and (max-width: 767px) {
+    /* Hide captions */
+    .carousel-caption {
+        display: none;
+    }
+}
+
+
+
+
+/*Project Details*/
+#ProjectDetails {
+    background: url(../images/lightwood.jpg) no-repeat, fixed, center;
+    background-size: cover;
+    /*background: url(../images/varywood.jpg) no-repeat, fixed, center;*/
+    font-size: large;
+}
+
+#Project {
+    display: flex;
+    justify-content: space-around;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: black 5px 6px 13px 2px;
+    padding: 0.3em;
+    padding-left: 0.7em;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+.image-upload {
+    padding-left: 5.5em;
+    color: black;
+    display: grid;
+}
+
+.project-info {
+}
+
+.project-crud {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    width: 10em;
+}
+
+.view-images {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+}
+
+#Contractors {
+    margin: 0px;
+    padding: 0.3em;
+    padding-left: 0.7em;
+    padding-right: 0.7em;
+    font-size: large;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: black 5px 6px 13px 2px;
+}
+
+#ExpenseTable { /*Expenses table. Don't change id name, it messes up formatting.*/
+    margin-top: 2em;
+    padding: 0.3em;
+    padding-left: 0.7em;
+    padding-right: 0.7em;
+    font-size: large;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: black 5px 6px 13px 2px;
+}
+
+.Resource ul li {
+    list-style-type: none;
+}
+
+.resource-grid {
+    grid-column-gap: 5em;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    text-align: center;
+    margin-top: 5rem;
+}
+
+.cards {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: black 5px 6px 13px 2px;
+}
+
+.resource-grid .cards {
+    height: 400px;
+}
+
+    .resource-grid .cards h5 {
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+    .resource-grid .cards li img:hover {
+        border: 3px solid rgb(83, 83, 83);
+    }
+
+    .resource-grid .cards li img {
+        margin: 15px;
+    }
+
+.about-grid {
+    grid-row-gap: 5em;
+    display: grid;
+    grid-template-rows: repeat(5, 1fr);
+    text-align: center;
+    margin-top: 5rem;
+}
+
+    .about-grid > div {
+        display: flex;
+        background-color: #fff;
+        border-radius: 5px;
+        box-shadow: black 5px 6px 13px 2px;
+        padding: 2em;
+    }
+
+    .about-grid > div {
+        color: black;
+        padding: 20px;
+        text-align: left;
+    }
+
+        .about-grid > div > img {
+            box-shadow: 1px 1px 5px black;
+        }
+
+.resource-grid img {
+    max-width: 100px;
+}
+
+.resource-grid ul {
+    margin: 0;
+    padding: 0;
+}
+
+
+.navbar-fixed-top .navbar-collapse {
+    padding: 0px 15px;
+}
+
+.navbar-brand i {
+    color: white !important;
+}
+
+.text-padding {
+    padding: 0px 20px;
+}
+
+i#cant-change.fas.fa-ban {
+    color: red;
+}
+
+i#cant-change {
+    color: green;
+}
+
+i#green {
+    color: green;
+}
+
+i#red {
+    color: red;
+}
+
+.footer {
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    margin-top: 1em;
+    bottom: 0;
+    width: 100%;
+}
+
+nav.navbar.navbar-inverse.navbar-fixed-top a:hover {
+    background-color: white;
+    font-weight: bold;
+    color: red;
+}
+
+    nav.navbar.navbar-inverse.navbar-fixed-top a:hover i {
+        color: red !important;
+    }
+
+nav.navbar.navbar-inverse.navbar-fixed-top li:hover {
+    background-color: white;
+    font-weight: bold;
+    color: red !important;
+}
+
+    nav.navbar.navbar-inverse.navbar-fixed-top li:hover button {
+        background-color: white;
+        font-weight: bold;
+        color: red !important;
+    }
+
+nav.navbar.navbar-inverse.navbar-fixed-top button:hover {
+    color: red;
+}
+
+nav.navbar.navbar-inverse.navbar-fixed-top {
+    font-weight: bold;
+}
+
+    nav.navbar.navbar-inverse.navbar-fixed-top button:visited {
+        text-decoration: none;
+    }
+
+.navbar-inverse .btn-link {
+    color: white;
+    font-weight: bold;
+}
+
+#aboutTitle {
+    color: white;
+}
+
+/*Nekos Changes to Login*/
+
+body {
+    padding-top: 50px;
+    padding-bottom: 0px;
+    background-color: rgba(193, 193, 193, 0.2784313725490196);
+    background: url(../images/Background.jpg)no-repeat fixed;
+    background-position: right bottom;
+}
+
+h2 {
+    color: black;
+}
+
+#account {
+    background-color: white;
+}
+
+.col-mod-4 {
+    background: white;
+    border-radius: 5px;
+    box-shadow: black 5px 6px 13px 2px;
+    text-align: center;
+    margin: 20px auto;
+}
+
+.col-md-6.col-md-offset-2 {
+    display: none;
+}
+
+.col-mod-4 {
+    width: 1000px
+}
+
+
+section form#account, [action="/Identity/Account/Register?returnUrl=%2F"], [action="/Identity/Account/Register?returnUrl=%2FHome%2FDashboard"] {
+    background: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: black 5px 6px 13px 2px;
+    margin: 30px;
+}
+
+.body-content > h2 {
+    display: none;
+}
+
+.btn-default {
+    box-shadow: 1px 1px 5px black;
+    font-weight: bold;
+}

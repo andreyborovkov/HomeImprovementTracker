@@ -1,0 +1,27 @@
+﻿@model HitApp.Models.Project
+
+@{
+    ViewData["Title"] = "Delete";
+}
+@section Styling{
+    <link href="~/css/Projects.css" rel="stylesheet" />
+}
+    <body id="ProjectIndex">
+        <div class="cards">
+            <h2>Are you sure you want to delete your @Model.ProjectName project?</h2>
+
+
+
+            <div class="buttons-del">
+
+                <form id="del-form" asp-action="Delete" asp-route-id="@Model.ProjectId">
+
+                    <input id="delete" type="submit" value="DELETE" style="font-weight:bold" class="btn btn-default" />
+                </form>
+                <a asp-action="Details" asp-route-id="@Model.ProjectId" >
+                    <input type="button" value="NO" style="font-weight:bold" class="btn btn-default" />
+                </a>
+
+            </div>
+        </div>
+</body>
